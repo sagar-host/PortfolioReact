@@ -7,8 +7,8 @@
    
     /* background-color: black !important; */
     background: #fcfcfc !important;
-    font-family: sans-serif !important;
-    border: 2px  red !important; 
+    /* font-family: sans-serif !important; */
+    /* border: 2px  red !important;  */
 
     
    
@@ -30,8 +30,8 @@
     gap: 20px;
    
 }
-.f-menu > li{
-    font-family: sans-serif;
+.f-menu > li > a{
+    font-family: 'Nunito Sans';
 }
 
 .footer-menu > ul{
@@ -47,6 +47,7 @@
     color: rgba(161, 161, 161, 0.658);
  
     font-size: large;
+    font-family: monospace;
 }
 .footer-menu > ul > li > a:hover{
     color: black;
@@ -111,7 +112,6 @@ margin-left: 41.5vmax;
 
 
 @media only screen and (max-width:600px )  {
-    @import url('http://fonts.cdnfonts.com/css/brittany-signature');
 
     #mainFooter{
         position: relative;
@@ -159,7 +159,7 @@ margin-left: 41.5vmax;
         font-size: 22px;
 
     }
-    .footer-bottom{
+    /* .footer-bottom{
         position: absolute;
    
         left: 2vmax;
@@ -168,7 +168,7 @@ margin-left: 41.5vmax;
           
            
            
-        }
+        } */
         .footer-bottom > p{
             width: 24vmax;
             font-size: medium;
@@ -176,11 +176,30 @@ margin-left: 41.5vmax;
             
         }
         .footer-bottom > h3{
-            font-family: 'Brittany Signature', sans-serif;
             position: relative;
             font-size: 30px;
           
         }
+        
+        .footer-menu{
+        
+            margin-right: 34.25vmax;
+            padding: 2vmax;
+            margin-top: 1vmax;
+            width: 5vmax;
+            height: 2vmax;
+                 
+             }
+             .footer-bottom{
+                position: absolute;
+           
+                margin-left: 16vmax;
+                    height: 1vmax;
+                   width: 20vmax;
+                   margin-top: 18vmax;
+                   
+                   
+                }
     }
     @media only screen and (max-width:375px)   {
 
@@ -212,37 +231,4 @@ margin-left: 41.5vmax;
 
     }
 
-    @media only screen and (max-width:600px)   {
-
-        .footer-menu{
-        
-            margin-right: 34.25vmax;
-            padding: 2vmax;
-            margin-top: 1vmax;
-            width: 5vmax;
-            height: 2vmax;
-                 
-             }
-             .footer-bottom{
-                position: absolute;
-           
-                margin-left: 16vmax;
-                    height: 1vmax;
-                   width: 20vmax;
-                   margin-top: 18vmax;
-                   
-                   
-                }
-                .footer-bottom > h3{
-                    
-                    font-family: 'Cedarville Cursive', cursive;
-                                                                
-                  
-                    /* font-size: 2.5rem; */
-                    /* display: inline; */
-                  
-                    
-                
-                }
-
-    }
+  
