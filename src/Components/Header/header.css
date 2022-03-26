@@ -15,6 +15,9 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
+    font-family: 'Nunito Sans', sans-serif;
+font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Titillium Web', sans-serif;
     
     -webkit-font-smoothing: antialiased !important;
     font-family: Inter,sans-serif !important;
