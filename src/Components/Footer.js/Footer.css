@@ -1,5 +1,6 @@
 
 @import url('http://fonts.cdnfonts.com/css/brittany-signature');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Titillium+Web:wght@200&display=swap');
 
 
 
@@ -205,6 +206,7 @@ margin-left: 41.5vmax;
                 }
                 .footer-bottom > h3{
                     font-family: 'Brittany Signature', sans-serif !important;
+                    font-family: 'Cedarville Cursive', cursive;
                                                                 
                   
                     /* font-size: 2.5rem; */
@@ -240,6 +242,7 @@ margin-left: 41.5vmax;
                 }
                 .footer-bottom > h3{
                     font-family: 'Brittany Signature', sans-serif !important;
+                    font-family: 'Cedarville Cursive', cursive;
                                                                 
                   
                     /* font-size: 2.5rem; */
