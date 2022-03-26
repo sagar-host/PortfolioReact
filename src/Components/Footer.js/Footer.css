@@ -31,6 +31,9 @@
     gap: 20px;
    
 }
+.f-menu > li{
+    font-family: sans-serif;
+}
 
 .footer-menu > ul{
     width: 20vmax;
