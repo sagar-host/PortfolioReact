@@ -97,11 +97,14 @@ margin-left: 41.5vmax;
     
 }
 .footerText{
-    font-family: 'Brittany Signature', sans-serif;
-                                                
+    font-family: 'Sacramento',cursive;
+    text-transform: none;
+    font-weight: 400;
+    color: #41b0bf !important;
+    font-size: 2.5em !important;                                                
   
-    font-size: 2.5rem;
-    /* display: inline; */
+  
+ 
   
 }
 
