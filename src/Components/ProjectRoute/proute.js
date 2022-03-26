@@ -4,7 +4,7 @@ import "./../../App.css"
 import Header from "./../Header/header"
 import Footer from "./../Footer.js/footer"
 
-import { Card,Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 
 function proute() {
@@ -54,7 +54,7 @@ User Authentication by  JWT<br /> OAUTH 2.0 and Passport
 <div className="picons" style={{ marginTop: "35px"}}>
 <ul className="psocials">
 <li><a href="https://github.com/sagar-host/Nodeaws">Code   <i className="fa fa-github"></i></a></li>
-<li><a href="#">Live      <i className="fa fa-chevron-circle-up "></i></a></li>
+<li><a href="/">Live      <i className="fa fa-chevron-circle-up "></i></a></li>
 
 </ul>
 </div>
@@ -71,8 +71,8 @@ Basic Overview of React.js CRUD App example with Web API .
 </Card.Text>
 <div className="picons">
 <ul className="psocials">
-<li><a href="#">Code  <i className="fa fa-github"></i></a></li>
-<li><a href="#">Live <i className="fa fa-chevron-circle-up "></i></a></li>
+<li><a href="/">Code  <i className="fa fa-github"></i></a></li>
+<li><a href="/">Live <i className="fa fa-chevron-circle-up "></i></a></li>
 
 </ul>
 </div>
