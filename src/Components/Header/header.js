@@ -1,6 +1,7 @@
 import React from 'react';
 import {Navbar,Nav,Container } from "react-bootstrap";
 import "./header.css"
+import {Link} from "react-router-dom"
 
 
 
@@ -10,21 +11,21 @@ function header() {
      <div className="header">
          <Navbar id='NAVBAR' collapseOnSelect expand="lg" >
   <Container>
-  <Navbar.Brand href="/" >EverGreen</Navbar.Brand>
+<Link to="/" className='LinkHeading'>EverGreen</Link> 
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-      <Nav.Link  href="/myproject">My Project</Nav.Link>
-      <Nav.Link href="/contact">Contact Me</Nav.Link>
+      <Link  to="/myproject" className='link2'>My Project</Link>
+      <Link to="/contact" className='link2'>Contact Me</Link>
     
     
     </Nav>
     <Nav>
-      <a href="https://www.linkedin.com/in/sagar-208723153"><i className="fa fa-twitter"></i></a>
+      <Link to="https://www.linkedin.com/in/sagar-208723153"><i className="fa fa-twitter"></i></Link>
 
-      <a href="https://www.github.com/sagar-host">
+      <Link to="https://www.github.com/sagar-host">
       <i className="fa fa-github"></i>
-      </a>
+      </Link>
     </Nav>
   </Navbar.Collapse>
   </Container>

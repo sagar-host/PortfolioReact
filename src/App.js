@@ -16,8 +16,8 @@ function App() {
     
 
        <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/myproject" element={<Proute />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/myproject" element={<Proute />} />
       </Routes>
    
      

@@ -13,28 +13,29 @@
  /* border: 2px solid black; */
  
 }
-.nav-link {
-    font-family: 'Nunito Sans', sans-serif !important
-}
-.navbar-light .navbar-nav .nav-link {
-   
 
 
-    
+
+.link2{
     -webkit-font-smoothing: antialiased !important;
     font-size: 1.215rem;
-    
+    font-family: 'Nunito Sans', sans-serif !important;
+    color: #9c9a9a;
+    text-decoration: none;
+    margin-left: 10px;
+
 
 }
-.navbar-light .navbar-nav .nav-link{
-    color: #9c9a9a;}
-.navbar-light .navbar-nav .nav-link:hover {
+
+   .link2:hover {
     color: black;
 }
 
-.navbar-brand {
+.LinkHeading{
     font-family: 'Shadows Into Light Two', cursive !important;
+    text-decoration: none !important;
+    color: #9c9a9a !important;
+    font-size: x-large;
+    font-weight: 500;
 }
-.nav-link:hover{
-    color: black;
-}
+
