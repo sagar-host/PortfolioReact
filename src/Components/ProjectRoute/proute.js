@@ -67,7 +67,7 @@ User Authentication by  JWT<br /> OAUTH 2.0 and Passport
 <Card.Body>
 <Card.Title>CRUD</Card.Title>
 <Card.Text>
-MERN  Admin PANEL CRUD <br /> with Web API .
+MERN  Admin PANEL CRUD <br /> with Web API and Registration <br /> only for admin .
 </Card.Text>
 <div className="picons">
 <ul className="psocials">
