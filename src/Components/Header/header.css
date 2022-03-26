@@ -13,14 +13,15 @@
  /* border: 2px solid black; */
  
 }
-
+.nav-link {
+    font-family: 'Nunito Sans', sans-serif !important
+}
 .navbar-light .navbar-nav .nav-link {
-    font-family: 'Nunito Sans', sans-serif;
-font-family: 'Shadows Into Light Two', cursive;
-font-family: 'Titillium Web', sans-serif;
+   
+
+
     
     -webkit-font-smoothing: antialiased !important;
-    font-family: Inter,sans-serif !important;
     font-size: 1.215rem;
     
 
@@ -31,8 +32,8 @@ font-family: 'Titillium Web', sans-serif;
     color: black;
 }
 
-.navbar-light .navbar-brand {
-    /* color: #aab2b9; */
+.navbar-brand {
+    font-family: 'Shadows Into Light Two', cursive !important;
 }
 .nav-link:hover{
     color: black;
