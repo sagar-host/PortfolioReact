@@ -1,6 +1,7 @@
 import React from 'react'
 import "./project.css"
 import { Card } from 'react-bootstrap';
+import {Link} from 'react-router-dom'
 
 
 function Project() {
@@ -19,7 +20,7 @@ function Project() {
       Ecommerce || Login  Registration || CRUD
       </Card.Text>
     </Card.Body>
-    <a href="/myproject"><button className='button_slide slide_down'>Click to see More</button></a>
+    <Link to="/myproject"><button className='button_slide slide_down'>Click to see More</button></Link>
 
 
   </Card>
