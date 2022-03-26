@@ -12,12 +12,12 @@ function App() {
 
 
   return (
-    <div className="App">m
+    <div className="App">
     
 
        <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="myproject" element={<Proute />} />
+        <Route path="/myproject" element={<Proute />} />
       </Routes>
    
      

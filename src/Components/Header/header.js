@@ -10,21 +10,21 @@ function header() {
      <div className="header">
          <Navbar id='NAVBAR' collapseOnSelect expand="lg" >
   <Container>
-  <Navbar.Brand href="#home" >EverGreen</Navbar.Brand>
+  <Navbar.Brand href="/" >EverGreen</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
       <Nav.Link  href="/myproject">My Project</Nav.Link>
-      <Nav.Link href="#pricing">Contact Me</Nav.Link>
+      <Nav.Link href="/contact">Contact Me</Nav.Link>
     
     
     </Nav>
     <Nav>
-      <Nav.Link href="#deets"><a href="#"><i className="fa fa-twitter"></i></a>
-</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-      <a href="#"><i className="fa fa-github"></i></a>
-      </Nav.Link>
+      <a href="https://www.linkedin.com/in/sagar-208723153"><i className="fa fa-twitter"></i></a>
+
+      <a href="https://www.github.com/sagar-host">
+      <i className="fa fa-github"></i>
+      </a>
     </Nav>
   </Navbar.Collapse>
   </Container>
