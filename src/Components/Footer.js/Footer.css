@@ -96,15 +96,13 @@ margin-left: 41.5vmax;
     color: black;
     
 }
-.footer-bottom > h3{
+.footerText{
     font-family: 'Brittany Signature', sans-serif;
                                                 
   
     font-size: 2.5rem;
     /* display: inline; */
   
-    
-
 }
 
 
@@ -222,12 +220,7 @@ margin-left: 41.5vmax;
                    
                    
                 }
-                .footer-bottom > h3{
-                  
-                    font-family: 'Cedarville Cursive', cursive;
-                 
-                
-                }
+              
 
     }
 

@@ -28,7 +28,7 @@ function footer() {
 </div>
 
 <div className="footer-bottom">
-<h3 style={{fontFamily:"'Brittany Signature', sans-serif"}}>Sagar.Bleu</h3>
+<h3 className='footerText'>Sagar.Bleu</h3>
 <p>copyright &copy;2021 <Link to="/">Sagar</Link>  </p>
 </div>
 
