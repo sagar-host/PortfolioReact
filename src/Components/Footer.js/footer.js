@@ -26,7 +26,7 @@ function footer() {
 </div>
 
 <div className="footer-bottom">
-<h3>Sagar.Bleu</h3>
+<h3 style={{fontFamily:"'Brittany Signature', sans-serif"}}>Sagar.Bleu</h3>
 <p>copyright &copy;2021 <a href="/">Sagar</a>  </p>
 </div>
 
