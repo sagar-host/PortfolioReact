@@ -16,8 +16,8 @@
 
 .navbar-light .navbar-nav .nav-link {
     
-    /* -webkit-font-smoothing: antialiased; */
-    font-family: Inter,sans-serif;
+    -webkit-font-smoothing: antialiased !important;
+    font-family: Inter,sans-serif !important;
     font-size: 1.215rem;
     
 
