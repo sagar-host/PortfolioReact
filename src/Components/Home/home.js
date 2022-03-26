@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Routes, Route, Link } from "react-router-dom";
 import Header from "../Header/header"
 import Middle from "../Middle/middle"
 import About from "../About/about"
