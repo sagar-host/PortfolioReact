@@ -54,7 +54,7 @@ User Authentication by  JWT<br /> OAUTH 2.0 and Passport
 <div className="picons" style={{ marginTop: "35px"}}>
 <ul className="psocials">
 <li><a href="https://github.com/sagar-host/Nodeaws">Code   <i className="fa fa-github"></i></a></li>
-<li><a href="/">Live      <i className="fa fa-chevron-circle-up "></i></a></li>
+<li><a href="https://oauthnode0.herokuapp.com/">Live      <i className="fa fa-chevron-circle-up "></i></a></li>
 
 </ul>
 </div>
@@ -67,12 +67,12 @@ User Authentication by  JWT<br /> OAUTH 2.0 and Passport
 <Card.Body>
 <Card.Title>CRUD</Card.Title>
 <Card.Text>
-Basic Overview of React.js CRUD App example with Web API .
+ Admin CRUD with Web API .
 </Card.Text>
 <div className="picons">
 <ul className="psocials">
-<li><a href="/">Code  <i className="fa fa-github"></i></a></li>
-<li><a href="/">Live <i className="fa fa-chevron-circle-up "></i></a></li>
+<li><a href="https://github.com/sagar-host/Admin-SHOPIE">Code  <i className="fa fa-github"></i></a></li>
+<li><a href="https://admin-shopie.vercel.app/">Live <i className="fa fa-chevron-circle-up "></i></a></li>
 
 </ul>
 </div>
