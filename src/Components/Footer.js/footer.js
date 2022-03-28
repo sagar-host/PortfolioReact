@@ -11,19 +11,19 @@ function footer() {
 <div className="footer-menu">
  <ul className="f-menu">
     <li><Link to="/">Home</Link></li>
-    <li><Link to="/">About</Link></li>
-    <li><Link to="/">Contact</Link></li>
-    <li><Link to="/">Blog</Link></li>
+    <li><Link to="/resume">About</Link></li>
+    <li><Link to="/contact">Contact</Link></li>
+    <li><Link to="/myproject">Project</Link></li>
  </ul>
 </div>
 
 <div className="icons">
 <ul className="socials">
-<li><Link to="https://www.github.com/sagar-host"><i className="fa fa-github"></i></Link></li>
+<li><a href="https://www.github.com/sagar-host" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a></li>
 <li><Link to="/"><i className="fa fa-twitter"></i></Link></li>
 <li><Link to="/"><i className="fa fa-google-plus"></i></Link></li>
 <li><Link to="/"><i className="fa fa-youtube"></i></Link></li>
-<li><Link to="https://www.linkedin.com/in/sagar-208723153"><i className="fa fa-linkedin-square"></i></Link></li>
+<li><a href="https://www.linkedin.com/in/sagar-208723153" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin-square"></i></a></li>
 </ul>
 </div>
 

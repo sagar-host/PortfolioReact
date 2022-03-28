@@ -3,7 +3,7 @@ import "./proute.css";
 import "./../../App.css"
 import Header from "./../Header/header"
 import Footer from "./../Footer.js/footer"
-import {Link} from 'react-router-dom'
+
 
 import { Card } from 'react-bootstrap';
 
@@ -35,8 +35,8 @@ Online Shopping Site for Fashion & Lifestyle in India
 </Card.Text>
 <div className="picons">
 <ul className="psocials">
-<li><Link to="https://github.com/sagar-host/SHOPIE-FRONTEND">Code   <i className="fa fa-github"></i></Link></li>
-<li><Link to="https://www.mytextui.com/">Live      <i className="fa fa-chevron-circle-up "></i></Link></li>
+<li><a href="https://github.com/sagar-host/SHOPIE-FRONTEND" target="_blank" rel="noopener noreferrer">Code   <i className="fa fa-github"></i></a></li>
+<li><a href="https://www.mytextui.com/" target="_blank" rel="noopener noreferrer">Live      <i className="fa fa-chevron-circle-up "></i></a></li>
 
 </ul>
 </div>
@@ -54,8 +54,8 @@ User Authentication by  JWT<br /> OAUTH 2.0 and Passport
 </Card.Text>
 <div className="picons" style={{ marginTop: "35px"}}>
 <ul className="psocials">
-<li><Link to="https://github.com/sagar-host/Nodeaws">Code   <i className="fa fa-github"></i></Link></li>
-<li><Link to="https://oauthnode0.herokuapp.com/">Live      <i className="fa fa-chevron-circle-up "></i></Link></li>
+<li><a href="https://github.com/sagar-host/Nodeaws" target="_blank" rel="noopener noreferrer">Code   <i className="fa fa-github"></i></a></li>
+<li><a href="https://oauthnode0.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live      <i className="fa fa-chevron-circle-up "></i></a></li>
 
 </ul>
 </div>
@@ -72,8 +72,8 @@ MERN  Admin PANEL CRUD <br /> with Web API and Registration  .
 </Card.Text>
 <div className="picons">
 <ul className="psocials">
-<li><Link to="https://github.com/sagar-host/Admin-SHOPIE">Code  <i className="fa fa-github"></i></Link></li>
-<li><Link to="https://admin-shopie.vercel.app/">Live <i className="fa fa-chevron-circle-up "></i></Link></li>
+<li><a href="https://github.com/sagar-host/Admin-SHOPIE" target="_blank" rel="noopener noreferrer">Code  <i className="fa fa-github"></i></a></li>
+<li><a href="https://admin-shopie.vercel.app/" target="_blank" rel="noopener noreferrer">Live <i className="fa fa-chevron-circle-up "></i></a></li>
 
 </ul>
 </div>
